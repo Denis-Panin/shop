@@ -29,6 +29,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     
     'accounts',
+    'shop',
     'phonenumber_field',
     'django_extensions',
     'debug_toolbar',

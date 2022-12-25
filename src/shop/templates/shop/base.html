@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{% block title %}{% endblock %}</title>
+</head>
+<nav>
+  <li><a href="{% url 'home_page' %}">Домашня сторінка</a></li>
+  <li><a href="{% url 'users' %}">Користувачі</a></li>
+</nav>
+<body>
+  {% block content %}{% endblock %}
+</body>
+</html>
