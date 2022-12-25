@@ -9,6 +9,9 @@ django-phonenumber-field==7.0.1
 django_debug_toolbar==3.8.1
 executing==1.2.0
 flake8==6.0.0
+flake8-builtins==2.1.0
+flake8-import-order==0.18.2
+flake8-quotes==3.3.2
 ipython==8.7.0
 jedi==0.18.2
 matplotlib-inline==0.1.6
