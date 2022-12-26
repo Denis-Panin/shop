@@ -1,5 +1,12 @@
 repos:
 -   repo: https://github.com/pycqa/flake8
-    rev: 3.9.2  # pick a git hash / tag to point to
+    rev: 4.0.1  # pick a git hash / tag to point to
     hooks:
     -   id: flake8
+        additional_dependencies: [
+          flake8-docstrings,
+          flake8-builtins,
+          flake8-import-order,
+          flake8-quotes,
+        ]
+
